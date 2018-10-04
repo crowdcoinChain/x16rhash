@@ -60,7 +60,7 @@ void x16_hash(const char* input, char* output)
     sph_groestl512 (&ctx_groestl, hashB, 64);
     sph_groestl512_close(&ctx_groestl, hashA);
 
-    sph_jhl512_init(&ctx_jh);
+    sph_jh512_init(&ctx_jh);
     sph_jh512 (&ctx_jh, hashB, 64);
     sph_jh512_close(&ctx_jh, hashA);
 
