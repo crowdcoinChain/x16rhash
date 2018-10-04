@@ -72,45 +72,45 @@ void xcoin_hash(const char* input, char* output)
     sph_skein512 (&ctx_skein, hashA, 64);
     sph_skein512_close (&ctx_skein, hashB);
 
-    sph_luffa512_init (&ctx_luffa1);
-    sph_luffa512 (&ctx_luffa1, hashB, 64);
-    sph_luffa512_close (&ctx_luffa1, hashA);	
+    sph_luffa512_init (&ctx_luffa);
+    sph_luffa512 (&ctx_luffa, hashB, 64);
+    sph_luffa512_close (&ctx_luffa, hashA);
 	
-    sph_cubehash512_init (&ctx_cubehash1); 
-    sph_cubehash512 (&ctx_cubehash1, hashA, 64);   
-    sph_cubehash512_close(&ctx_cubehash1, hashB);  
+    sph_cubehash512_init (&ctx_cubehash);
+    sph_cubehash512 (&ctx_cubehash, hashA, 64);
+    sph_cubehash512_close(&ctx_cubehash, hashB);
 	
-    sph_shavite512_init (&ctx_shavite1);
-    sph_shavite512 (&ctx_shavite1, hashB, 64);   
-    sph_shavite512_close(&ctx_shavite1, hashA);  
+    sph_shavite512_init (&ctx_shavite);
+    sph_shavite512 (&ctx_shavite, hashB, 64);
+    sph_shavite512_close(&ctx_shavite, hashA);
 	
-    sph_simd512_init (&ctx_simd1); 
-    sph_simd512 (&ctx_simd1, hashA, 64);   
-    sph_simd512_close(&ctx_simd1, hashB); 
+    sph_simd512_init (&ctx_simd);
+    sph_simd512 (&ctx_simd, hashA, 64);
+    sph_simd512_close(&ctx_simd, hashB);
 	
-    sph_echo512_init (&ctx_echo1);
-    sph_echo512 (&ctx_echo1, hashB, 64);
-    sph_echo512_close(&ctx_echo1, hashA);
+    sph_echo512_init (&ctx_echo);
+    sph_echo512 (&ctx_echo, hashB, 64);
+    sph_echo512_close(&ctx_echo, hashA);
 
-    sph_hamsi512_init (&ctx_hamsi1);
-    sph_hamsi512 (&ctx_hamsi1, hashB, 64);
-    sph_hamsi512_close(&ctx_hamsi1, hashA);
+    sph_hamsi512_init (&ctx_hamsi);
+    sph_hamsi512 (&ctx_hamsi, hashB, 64);
+    sph_hamsi512_close(&ctx_hamsi, hashA);
 
-    sph_fugue512_init (&ctx_fugue1);
-    sph_fugue512 (&ctx_fugue1, hashB, 64);
-    sph_fugue512_close(&ctx_fugue1, hashA);
+    sph_fugue512_init (&ctx_fugue);
+    sph_fugue512 (&ctx_fugue, hashB, 64);
+    sph_fugue512_close(&ctx_fugue, hashA);
 
-    sph_shabal512_init (&ctx_shabal1);
-    sph_shabal512 (&ctx_shabal1, hashB, 64);
-    sph_shabal512_close(&ctx_shabal1, hashA);
+    sph_shabal512_init (&ctx_shabal);
+    sph_shabal512 (&ctx_shabal, hashB, 64);
+    sph_shabal512_close(&ctx_shabal, hashA);
 
-    sph_whirlpool_init (&ctx_whirlpool1);
-    sph_whirlpool (&ctx_whirlpool1, hashB, 64);
-    sph_whirlpool_close(&ctx_whirlpool1, hashA);
+    sph_whirlpool_init (&ctx_whirlpool);
+    sph_whirlpool (&ctx_whirlpool, hashB, 64);
+    sph_whirlpool_close(&ctx_whirlpool, hashA);
 
-    sph_sha512_init (&ctx_sha1);
-    sph_sha512 (&ctx_sha1, hashB, 64);
-    sph_sha512_close(&ctx_sha1, hashA);
+    sph_sha512_init (&ctx_sha);
+    sph_sha512 (&ctx_sha, hashB, 64);
+    sph_sha512_close(&ctx_sha, hashA);
 
     memcpy(output, hashA, 32);
 	
