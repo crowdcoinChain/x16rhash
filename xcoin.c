@@ -4,22 +4,22 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "crypto/sph_blake.h"
-#include "crypto/sph_bmw.h"
-#include "crypto/sph_groestl.h"
-#include "crypto/sph_jh.h"
-#include "crypto/sph_keccak.h"
-#include "crypto/sph_skein.h"
-#include "crypto/sph_luffa.h"
-#include "crypto/sph_cubehash.h"
-#include "crypto/sph_shavite.h"
-#include "crypto/sph_simd.h"
-#include "crypto/sph_echo.h"
-#include "crypto/sph_hamsi.h"
-#include "crypto/sph_fugue.h"
-#include "crypto/sph_shabal.h"
-#include "crypto/sph_whirlpool.h"
-#include "crypto/sph_sha2.h"
+#include "sha3/sph_blake.h"
+#include "sha3/sph_bmw.h"
+#include "sha3/sph_groestl.h"
+#include "sha3/sph_jh.h"
+#include "sha3/sph_keccak.h"
+#include "sha3/sph_skein.h"
+#include "sha3/sph_luffa.h"
+#include "sha3/sph_cubehash.h"
+#include "sha3/sph_shavite.h"
+#include "sha3/sph_simd.h"
+#include "sha3/sph_echo.h"
+#include "sha3/sph_hamsi.h"
+#include "sha3/sph_fugue.h"
+#include "sha3/sph_shabal.h"
+#include "sha3/sph_whirlpool.h"
+#include "sha3/sph_sha2.h"
 
 
 void xcoin_hash(const char* input, char* output)
