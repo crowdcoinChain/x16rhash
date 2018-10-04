@@ -104,9 +104,9 @@ void xcoin_hash(const char* input, char* output)
     sph_shabal512 (&ctx_shabal1, hashB, 64);
     sph_shabal512_close(&ctx_shabal1, hashA);
 
-    sph_whirlpool512_init (&ctx_whirlpool1);
-    sph_whirlpool512 (&ctx_whirlpool1, hashB, 64);
-    sph_whirlpool512_close(&ctx_whirlpool1, hashA);
+    sph_whirlpool_init (&ctx_whirlpool1);
+    sph_whirlpool (&ctx_whirlpool1, hashB, 64);
+    sph_whirlpool_close(&ctx_whirlpool1, hashA);
 
     sph_sha512_init (&ctx_sha1);
     sph_sha512 (&ctx_sha1, hashB, 64);

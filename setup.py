@@ -13,7 +13,13 @@ xcoin_hash_module = Extension('xcoin_hash',
 										  'sha3/echo.c',
 										  'sha3/luffa.c',
 										  'sha3/simd.c',
-										  'sha3/shavite.c'],
+										  'sha3/shavite.c',
+										  'sha/sph_hamsi.c',
+										  'sha/sph_fugue.c',
+										  'sha/sph_shabal.c',
+										  'sha/sph_whirlpool.c',
+										  'sha/sph_sha512.c'
+										  ],
                                include_dirs=['.', './sha3'])
 
 setup (name = 'xcoin_hashs',

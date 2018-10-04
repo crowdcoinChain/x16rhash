@@ -10,6 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd7fa68f-b1fb-406a-bc28-e5412fc6fae7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/cubehash.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/cubehash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/echo.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/echo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/luffa.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/luffa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/shavite.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/shavite.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/simd.c" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/simd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_cubehash.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_cubehash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_echo.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_echo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_luffa.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_luffa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_shavite.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_shavite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_simd.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_simd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sha3/sph_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/sha3/sph_types.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xcoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/xcoin.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xcoin.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xcoin.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xcoin.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="120">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sph_whirlpool.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sha3/sph_whirlpool.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="102" column="23" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sph_sha2.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sha3/sph_sha2.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="312" column="31" lean-forward="true" selection-start-line="312" selection-start-column="31" selection-end-line="312" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -36,6 +76,13 @@
     <findStrings>
       <find>groestl</find>
       <find>echo</find>
+      <find>sph_hamsi512_init</find>
+      <find>sph_fugue512_init</find>
+      <find>sph_whirlpool512_init</find>
+      <find>sph_whirlpool</find>
+      <find>sph_shabal512_init</find>
+      <find>sph_whirlpool_init</find>
+      <find>sph_sha512_init</find>
       <find>whirlpool</find>
     </findStrings>
     <replaceStrings>
@@ -46,6 +93,9 @@
       <replace>whirlpool</replace>
       <replace>sha</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +104,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/xcoin.c" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -66,7 +117,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="5" />
     <option name="width" value="1255" />
@@ -83,6 +134,11 @@
             <path>
               <item name="x16r-hash" type="b2602c69:ProjectViewProjectNode" />
               <item name="x16r-hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x16r-hash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x16r-hash" type="462c0819:PsiDirectoryNode" />
+              <item name="sha3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538641463858</updated>
-      <workItem from="1538641468698" duration="963000" />
+      <workItem from="1538641468698" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="963000" />
+    <option name="totallyTimeSpent" value="2335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="747" extended-state="6" />
@@ -132,14 +188,14 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003723" side_tool="true" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4996277" visible="true" weight="0.32899022" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -155,10 +211,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sha3/sph_blake.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha3/blake.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcoin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcoinmodule.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha3/sph_whirlpool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha3/sph_sha2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="312" column="31" lean-forward="true" selection-start-line="312" selection-start-column="31" selection-end-line="312" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xcoin.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="120">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
         </state>
       </provider>
     </entry>
