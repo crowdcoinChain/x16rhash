@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-void xcoin_hash(const char* input, char* output);
+void x16_hash(const char* input, char* output);
 
 #ifdef __cplusplus
 }

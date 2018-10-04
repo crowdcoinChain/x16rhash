@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-xcoin_hash_module = Extension('x16_hash',
+x16_hash_module = Extension('x16_hash',
                                sources = ['xcoinmodule.c',
                                           'xcoin.c',
 										  'sha3/blake.c',
@@ -25,4 +25,4 @@ xcoin_hash_module = Extension('x16_hash',
 setup (name = 'x16_hashs',
        version = '1.0',
        description = 'Bindings for proof of work used by Xcoin',
-       ext_modules = [xcoin_hash_module])
+       ext_modules = [x16_hash_module])

@@ -22,7 +22,7 @@
 #include "sha3/sph_sha2.h"
 
 
-void xcoin_hash(const char* input, char* output)
+void x16_hash(const char* input, char* output)
 {
     sph_blake512_context     ctx_blake;      //0
     sph_bmw512_context       ctx_bmw;        //1

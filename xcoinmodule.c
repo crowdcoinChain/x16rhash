@@ -17,9 +17,9 @@ static PyObject *xcoin_getpowhash(PyObject *self, PyObject *args)
     output = PyMem_Malloc(32);
 
 #if PY_MAJOR_VERSION >= 3
-    xcoin_hash((char *)PyBytes_AsString((PyObject*) input), output);
+    x16_hash((char *)PyBytes_AsString((PyObject*) input), output);
 #else
-    xcoin_hash((char *)PyString_AsString((PyObject*) input), output);
+    x16_hash((char *)PyString_AsString((PyObject*) input), output);
 #endif
     Py_DECREF(input);
 #if PY_MAJOR_VERSION >= 3
@@ -39,19 +39,19 @@ static PyMethodDef XcoinMethods[] = {
 #if PY_MAJOR_VERSION >= 3
 static struct PyModuleDef XcoinModule = {
     PyModuleDef_HEAD_INIT,
-    "xcoin_hash",
+    "x16_hash",
     "...",
     -1,
     XcoinMethods
 };
 
-PyMODINIT_FUNC PyInit_xcoin_hash(void) {
+PyMODINIT_FUNC PyInit_x16_hash(void) {
     return PyModule_Create(&XcoinModule);
 }
 
 #else
 
-PyMODINIT_FUNC initxcoin_hash(void) {
-    (void) Py_InitModule("xcoin_hash", XcoinMethods);
+PyMODINIT_FUNC initx16_hash(void) {
+    (void) Py_InitModule("x16_hash", XcoinMethods);
 }
 #endif
