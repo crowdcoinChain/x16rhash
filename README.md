@@ -1,5 +1,5 @@
 # xcoin-hash #
-Python module for x11 PoW algorithm
+Python module for x16r PoW algorithm
 
 To install:
 
